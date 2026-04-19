@@ -1,0 +1,92 @@
+{
+  "children": [
+    "CHILD_1",
+    "CHILD_2",
+    "CHILD_3",
+    "CHILD_4",
+    "CHILD_5",
+    "CHILD_6"
+  ],
+  "daysForChores": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "chores": [
+    {
+      "Name": "Clean CHILD_1/CHILD_2 room",
+      "Days": ["Monday", "Wednesday", "Friday"],
+      "assignedChildren": ["CHILD_1", "CHILD_2"]
+    },
+    {
+      "Name": "Clean CHILD_3 room",
+      "Days": ["Monday", "Wednesday", "Friday"],
+      "assignedChildren": ["CHILD_3"]
+    },
+    {
+      "Name": "Clean the boy's room",
+      "Days": ["Monday", "Wednesday", "Friday"],
+      "assignedChildren": ["CHILD_4", "CHILD_6", "CHILD_5"]
+    },
+    {
+      "Name": "Clean the living room",
+      "Days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "assignedChildren": [
+        "CHILD_4",
+        "CHILD_6",
+        "CHILD_1",
+        "CHILD_2",
+        "CHILD_3",
+        "CHILD_5"
+      ]
+    },
+    {
+      "Name": "Clean the dining room (table and floor)",
+      "Days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "assignedChildren": [
+        "CHILD_5",
+        "CHILD_4",
+        "CHILD_3",
+        "CHILD_1",
+        "CHILD_2",
+        "CHILD_6"
+      ]
+    },
+    {
+      "Name": "Clean the bathroom",
+      "Days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "assignedChildren": [
+        "CHILD_4",
+        "CHILD_6",
+        "CHILD_1",
+        "CHILD_2",
+        "CHILD_3",
+        "CHILD_5"
+      ]
+    }
+  ]
+}
