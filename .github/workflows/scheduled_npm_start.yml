@@ -28,5 +28,6 @@ jobs:
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
+          CHORE_CONFIG_JSON: ${{ secrets.CHORE_CONFIG_JSON }}
         # Exit code will propagate and fail the job if the script fails
         run: npm start
